@@ -16,8 +16,8 @@ namespace Assignment_1
             int numberofEmployee = 0;
             String[] input;
 
-            //try
-            //{
+            try
+            {
             StreamReader employeereader = new StreamReader(FILE); 
                 while (!employeereader.EndOfStream)
             {
@@ -31,12 +31,12 @@ namespace Assignment_1
             {
                 Console.WriteLine(employee[i]);
             }
-            //  }
-            // catch(IOException ex)
-            // {
+              }
+             catch(IOException ex)
+             {
 
-            // Console.WriteLine("Your file name doesn't match!. ");
-            // }
+             Console.WriteLine("Your file name doesn't match!. ");
+             }
 
             Console.WriteLine("Enter your choice: ");
             String option = Console.ReadLine();

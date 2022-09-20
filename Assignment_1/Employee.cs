@@ -14,6 +14,7 @@ namespace Assignment_1
         private Double hours;
         private Decimal gross;
 
+
         public Employee(String name, int number, Decimal rate, Double hours)
         {
             this.name = name;
